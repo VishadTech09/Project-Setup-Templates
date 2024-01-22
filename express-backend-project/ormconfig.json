@@ -1,0 +1,16 @@
+{
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "your_database_name",
+    "useUnifiedTopology": true,
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+        "entities/**/*.entity.ts"
+    ],
+    "cli": {
+      "entitiesDir": "entities"
+    }
+  }
+  
